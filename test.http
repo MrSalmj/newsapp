@@ -1,0 +1,4 @@
+@baseUrl = https://young-depths-16241.herokuapp.com
+@auth = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwNjg0YTNiOGQzODk1MDAxNTRiYjk1MiIsImlhdCI6MTYxNzQ1ODAyOCwiZXhwIjoxNjIwMDUwMDI4fQ.JouUYGgSCKG_d-2bUJWboC_exRIrrsHVn2egzEfvO40
+GET {{baseUrl}}/users
+Authorization : Bearer {{auth}}
